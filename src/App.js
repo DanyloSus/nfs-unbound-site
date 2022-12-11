@@ -17,8 +17,8 @@ export default function App () {
                 <Start />
                 <Story />
                 <Music />
-                <Rating />
                 <Finish />
+                <Rating />
             </div>
             <Footer />
         </div>

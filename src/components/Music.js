@@ -6,11 +6,11 @@ export default function Music () {
             <h1 align="center">Music</h1>
             <div>
                 <div className="ukr b">
-                    <p>Grebz</p>
+                    <p>KALUSH feat. alyona alyona</p>
                 </div>
                 <div className="ukr y">
                     <p>Alina Pash</p>
-                    <p>KALUSH feat. alyona alyona</p>
+                    <p>Grebz</p>
                 </div>
                 <div>
                     <p>A$AP Rocky</p>

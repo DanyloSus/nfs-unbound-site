@@ -2,6 +2,7 @@
 <html lang="en">
 
 <head>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
   <meta charset="utf-8" />
   <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -54,7 +55,17 @@
         reveals[i].classList.add("active");
       }
     }
-    
+
+    var reveals = document.querySelectorAll(".reveal2");
+    for (var i = 0; i < reveals.length; i++) {
+      var windowHeight = window.innerHeight;
+      var elementTop = reveals[i].getBoundingClientRect().top;
+      var elementVisible = 350;
+      if (elementTop < windowHeight - elementVisible) {
+        reveals[i].classList.add("active");
+      }
+    }
+
     reveals = document.querySelectorAll(".reveal3");
     revealss = document.querySelectorAll(".reveal3s");
     for (var i = 0; i < reveals.length; i++) {
