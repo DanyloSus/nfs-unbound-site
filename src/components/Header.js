@@ -8,14 +8,14 @@ export default function Header () {
                 <img 
                     src={logo}
                     alt="logo"
-                    className="logo"
+                    className="logo reveal3s"
                 />
             </a>
             <a href="#start"><p>Start</p></a>
             <a href="#story"><p>Story</p></a>
             <a href="#music"><p>Music</p></a>
             <a href="#rating"><p>Rating</p></a>
-            <a href="#finish"><p>Finish</p></a>
+            <a href="#finish"><p>Trailer</p></a>
         </header>
     );
 }
